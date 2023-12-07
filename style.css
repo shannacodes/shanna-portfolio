@@ -376,7 +376,7 @@ article .icon {
     border-color: rgb(163, 163, 163);
 }
 
-/* CONTACT */
+/* CONTACT SECTION */
 
 #contact {
     display: flex;
@@ -402,7 +402,6 @@ article .icon {
     justify-content: center;
     gap: 0.5rem;
     margin: 1rem;
-    padding: 0.5rem;
 }
 
 .contact-info-container p {
@@ -418,3 +417,12 @@ article .icon {
 }
 
 /* FOOTER */
+
+footer {
+    height: 26vh;
+    margin: 0 1rem;
+}
+
+footer p {
+    text-align: center;
+}

@@ -145,7 +145,7 @@ a:hover {
     transform: none;
 }
 
-/* SECTIONS @ 40:00 */  
+/* SECTIONS */  
 
 section {
     padding-top: 4vh;
@@ -191,6 +191,12 @@ section {
 .section__text__p2 {
     font-size: 1.75rem;
     margin-bottom: 1rem;
+}
+
+.section__text__p3 {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    font-weight: lighter !important;
 }
 
 
@@ -367,7 +373,7 @@ article .icon {
 }
 
 .project-title {
-    margin: 1rem;
+    margin: 3rem;
     color: black;
 }
 

@@ -380,6 +380,19 @@ article .icon {
     border-color: rgb(163, 163, 163);
 }
 
+.tools-applied ul {
+    list-style-type: none;
+}
+
+.tools-applied ul li {
+    background: url('assets/circle-checkmark.png') no-repeat left center;
+    background-size: contain;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
 /* CONTACT SECTION */
 
 #contact {

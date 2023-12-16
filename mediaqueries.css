@@ -6,8 +6,14 @@
   .about-containers {
     flex-wrap: wrap;
   }
+  #experience {
+    margin-top: 6rem;
+  }
+  #projects {
+    margin-top: 9rem;
+  }
   #contact {
-    margin-top: 36rem;
+    margin-top: 44rem;
   }
 }
 
@@ -29,6 +35,9 @@
   .arrow {
     display: none;
   }
+  #about {
+    margin-top: 4rem;
+  }
   section,
   .section-container {
     height: fit-content;
@@ -44,6 +53,9 @@
   .about-containers {
     margin-top: auto;
   }
+  .section__text__p1 {
+    margin-top: 15rem;
+  }
   #contact {
     margin-top: 3rem;
   }
@@ -53,8 +65,11 @@
   #about {
     margin-top: 9rem;
   }
+  #skills {
+    margin-top: 8rem;
+  }
   #projects {
-    margin-top: 3rem;
+    margin-top: 4rem;
   }
   #contact {
     margin-top: auto;
@@ -74,7 +89,6 @@
     height: fit-content;
     margin-bottom: 2rem;
   }
-
   .about-containers,
   .contact-info-upper-container,
   .btn-container {
@@ -127,5 +141,11 @@
   }
   .copyright {
     font-size: 0.9rem;
+  }
+  #projects {
+    margin-top: 3cqw;
+  }
+  #contact {
+    margin-top: 3rem;
   }
 }

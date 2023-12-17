@@ -3,14 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Shanna Lucero || Full Stack Developer passionate about crafting purpose-driven, clean code. Explore my skills and projects.">
-    <title>Shanna Lucero | Full Stack Developer</title>
+    <meta name="description" content="Shanna Lucero || Full Stack Web Developer passionate about crafting purpose-driven, clean code. Explore my skills and projects.">
+    <title>Shanna Lucero | Full Stack Web Developer</title>
     <link rel="stylesheet" href="style.css"> 
     <link rel="stylesheet" href="mediaqueries.css">
 </head>
 <body>
     <nav id="desktop-nav">
-        <div class="logo">Shanna Lucero</div>
+        <div class="logo">
+            <img src="./assets/sl-logo.png" 
+                alt="Big logo"
+                class="big-logo" 
+            />
+        </div>
         <div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
@@ -21,7 +26,12 @@
         </div>
     </nav>
     <nav id="hamburger-nav">
-        <div class="logo">Shanna Lucero</div>
+        <div class="logo">
+            <img src="./assets/sl-circle-logo.png" 
+                alt="Small logo"
+                class="small-logo"
+            />
+        </div>
         <div class="hamburger-menu">
             <div class="hamburger-icon" onclick="toggleMenu()">
                 <span></span>
@@ -46,9 +56,9 @@
         </div>
         <div class="section__text">
             <p class="intro-text">Hello there! I'm...</p>
-            <h1 class="title">Shanna</h1>
-            <p class="section__text__p2">Full Stack Developer</p>
-            <p class="section__text__p3">Passionate about crafting<br />purpose-driven, clean code.</p><br />
+            <h1 class="name-title">Shanna</h1>
+            <p class="section__text__p2">Web Developer</p>
+            <p class="section__text__p3">Passionate about crafting<br />purpose-driven, clean code<br />that helps people.</p><br />
             <div class="btn-container">
                 <button class="btn btn-color-2" onclick="window.open('./assets/ShannaLucero_Resume.pdf')">
                     Resume
@@ -102,9 +112,8 @@
                         <p>M.S. Occupational Therapy</p>
                     </div>
                 </div>
-                <div class="text-container">
-                    <p>
-                    </p>
+                <div class="text-container about-desc">
+                    <p></p>
                 </div>
             </div>
         </div>
@@ -312,13 +321,13 @@
                     <h2 class="experience-sub-title project-title">Hand Exercise App</h2>
                     <div class="btn-container">
                         <button 
-                            class="btn btn-color-2 project-btn" 
+                            class="btn btn-color-1" 
                             onclick="window.open('https://github.com/shannacodes/handtherapy-ex', '_blank')"
                         >
                             Github
                         </button>
                         <button 
-                            class="btn btn-color-2 project-btn" 
+                            class="btn btn-color-1" 
                             onclick="window.open('https://hand-ex.web.app/', '_blank')"
                         >
                             Live Demo
@@ -352,13 +361,13 @@
                     <h2 class="experience-sub-title project-title">Rolling Pin Donuts</h2>
                     <div class="btn-container">
                         <button 
-                            class="btn btn-color-2 project-btn" 
+                            class="btn btn-color-1" 
                             onclick="window.open('https://github.com/shannacodes/bootstrapSite', '_blank')"
                         >
                             Github
                         </button>
                         <button 
-                            class="btn btn-color-2 project-btn" 
+                            class="btn btn-color-1" 
                             onclick="window.open('https://rolling-pin-donuts.web.app/', '_blank')"
                         >
                             Live Demo
@@ -438,7 +447,7 @@
             <div class="nav-links-container">
                 <ul class="nav-links">
                     <li><a href="#about">About</a></li>
-                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#experience">Skills</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>

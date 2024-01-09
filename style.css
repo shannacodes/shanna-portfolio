@@ -310,10 +310,6 @@ section {
     display: flex;
 }
 
-.about-pic {
-    border-radius: 2rem;
-}
-
 .arrow {
     position: absolute;
     right: -5rem;
@@ -347,6 +343,7 @@ section {
     height: 400px;
     width: 400px;
     margin: auto 0;
+    justify-content: center;
 }
 
 /* EXPERIENCE SECTION */
@@ -487,7 +484,7 @@ h4 {
 
 footer {
     height: 26vh;
-    margin: 0 1rem;
+    margin-bottom: 0px;
 }
 
 footer p {
